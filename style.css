@@ -680,6 +680,7 @@ a {
 	margin-left: -2px;
 	background-color: #f8eedf;
 	box-shadow: 1px 3px 5px black inset;
+	outline: none;
 }
 
 .quote-form-name {
@@ -719,6 +720,19 @@ a {
 	color:#5d929c;
 }
 .quote-form input:-ms-input-placeholder      {
+	color:#5d929c;
+}
+
+.quote-form textarea::-webkit-input-placeholder {
+	color:#5d929c;
+}
+.quote-form textarea::-moz-placeholder          {
+	color:#5d929c;
+}
+.quote-form textarea:-moz-placeholder           {
+	color:#5d929c;
+}
+.quote-form textarea:-ms-input-placeholder      {
 	color:#5d929c;
 }
 
@@ -805,7 +819,7 @@ a {
 }
 
 .stream-text-link:hover {
-	color: #00f;
+	color: #ecb358;
 	text-decoration: underline;
 }
 
